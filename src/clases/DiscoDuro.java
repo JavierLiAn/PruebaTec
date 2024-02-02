@@ -7,7 +7,6 @@ public class DiscoDuro extends UnidadDeAlmacenamiento implements Almacenamiento 
         super(brand);
     }
 
-    // Implementación de métodos de la interfaz Almacenamiento
     @Override
     public void girarDisco() {
         System.out.println("Disco Duro girando...");
