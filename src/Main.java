@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("--- Disco de Vinilo ---");
         discoVinilo.girarDisco();
-        discoVinilo.almacenarDatos(); // No almacenan datos
+        discoVinilo.almacenarDatos(); // No almacenana datos
         discoVinilo.leerDatos(); // No puede leer datos
         discoVinilo.reportarInformacion();
         System.out.println();
