@@ -6,7 +6,6 @@ public class Vinilo extends UnidadDeAlmacenamiento implements Almacenamiento {
         super(brand);
     }
 
-    // Implementación de métodos de la interfaz Almacenamiento
     @Override
     public void girarDisco() {
         System.out.println("Disco de Vinilo girando...");
