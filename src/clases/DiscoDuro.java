@@ -1,4 +1,4 @@
-package clases;
+epackage clases;
 
 import interfaces.Almacenamiento;
 
@@ -9,7 +9,7 @@ public class DiscoDuro extends UnidadDeAlmacenamiento implements Almacenamiento 
 
     @Override
     public void girarDisco() {
-        System.out.println("Disco Duro girando...");
+        System.out.println("Disco Duro en ejecución...");
     }
 
     @Override
