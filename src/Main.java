@@ -36,7 +36,7 @@ public class Main {
         discoVinilo.reportarInformacion();
         System.out.println();
 
-        // Ejecutar comportamientos de BlueRay
+        
         System.out.println("--- BlueRay ---");
         blueRay.girarDisco();
         blueRay.almacenarDatos();
@@ -45,7 +45,6 @@ public class Main {
         System.out.println();
 
         // Polimorfismo
-        
         Almacenamiento almacenamiento1 = cd;
         Almacenamiento almacenamiento2 = discoDuro;
 
