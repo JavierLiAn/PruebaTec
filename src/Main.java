@@ -31,8 +31,8 @@ public class Main {
 
         System.out.println("--- Disco de Vinilo ---");
         discoVinilo.girarDisco();
-        discoVinilo.almacenarDatos(); // Los discos de vinilo no almacenan datos
-        discoVinilo.leerDatos(); // Los discos de vinilo no pueden leer datos
+        discoVinilo.almacenarDatos(); // No almacenan datos
+        discoVinilo.leerDatos(); // No puede leer datos
         discoVinilo.reportarInformacion();
         System.out.println();
 
@@ -44,8 +44,8 @@ public class Main {
         blueRay.reportarInformacion();
         System.out.println();
 
-        // Demostración de polimorfismo
-        System.out.println("--- Polimorfismo ---");
+        // Polimorfismo
+        
         Almacenamiento almacenamiento1 = cd;
         Almacenamiento almacenamiento2 = discoDuro;
 
