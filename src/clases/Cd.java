@@ -24,6 +24,6 @@ public class Cd extends UnidadDeAlmacenamiento implements Almacenamiento {
 
     @Override
     public void reportarInformacion() {
-        System.out.println("Información del CD - Brand: " + getBrand()); // Corrección aquí
+        System.out.println("Información del CD - Brand: " + getBrand()); 
     }
 }
