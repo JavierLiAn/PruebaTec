@@ -24,6 +24,6 @@ public class DiscoDuro extends UnidadDeAlmacenamiento implements Almacenamiento 
 
     @Override
     public void reportarInformacion() {
-        System.out.println("Información del Disco Duro - Brand: " + getBrand()); // Corrección aquí
+        System.out.println("Información del Disco Duro - Brand: " + getBrand()); 
     }
 }
